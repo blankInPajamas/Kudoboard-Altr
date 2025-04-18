@@ -29,6 +29,8 @@ import maherudp from './assets/dp-images/maheru-dp.jpg'
 import maheru from './assets/mohila-img.jpeg'
 import marzandp from './assets/dp-images/marzan-dp.jpg'
 import marzan from './assets/marzan-img.jpeg'
+import saima from './assets/saima-img-02.jpeg'
+import saimadp from './assets/dp-images/saima-dp.jpg'
 
 
 
@@ -126,6 +128,13 @@ function App() {
 			dp: oisheedp,
 			media: oishee,
 			caption: "Dear Rubaiya, May your birthday be filled with full of love and happiness, Happy birthday girl sending love and birthday hugs to you 💗"
+		},
+
+		{
+			username: '__furrnazzz',
+			dp: saimadp,
+			media: saima,
+			caption: "Happy birthday, baiyaRu! Life has definitely become brighter since you became my friend. Before, my friends always treated me like their little one, but now that I have you, it feels great to share that motherly love with you, lol. I hope this year brings you tons of happiness, good health, and lots of laughter!  May your special day be filled with joy and wonder."
 		}
 		
 	]
