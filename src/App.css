@@ -1,0 +1,104 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+
+  background-image: url('./assets/stars-background.png');
+  /* background-size: cover; */
+}
+
+.feed
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.header
+{
+	margin: 0px;
+	height: 300px;
+	/* background: linear-gradient(180deg, rgba(0,51,102,1) 0%, rgba(15,82,186,1) 100%); */
+	background: linear-gradient(180deg, rgb(16, 45, 131) 0%, rgb(104, 198, 241) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 5em;
+	font-weight: bold;
+	/* -webkit-text-stroke: 2px white; */
+	color: rgb(255, 255, 255);
+
+	margin-bottom: 80px;
+}
+
+.post-box
+{
+	margin: 10px;
+	/* border: 2px solid red; */
+
+	width: 500px;
+	height: 800px;
+
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	overflow: hidden;
+
+	background-color: white;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.post-image
+{
+	width: 100%;
+	height: 80%;
+	object-fit: cover;
+	/* border-radius: 10px; */
+}
+
+.post-caption
+{
+	/* width: 90%; */
+	margin-top: 10px;
+	font-size: 1rem;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.post-caption-username
+{
+	margin-right: 8px;
+}
+
+.post-caption-text
+{
+	font-size: 0.9rem;
+}
+
+.navbar
+{
+	width: 100%;
+	height: 5%;
+	padding: 10px 0px;
+
+	display: flex;
+	align-items: center;
+
+}
+
+.navbar-picture
+{
+	width: 40px;
+	border-radius: 35px;
+	margin: 0px 10px 0px 0px;
+}
+
+.navbar-caption
+{
+	font-weight: bold;
+	/* padding-left: 10px; */
+}
